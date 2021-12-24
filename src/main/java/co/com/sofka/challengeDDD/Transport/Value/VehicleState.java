@@ -1,4 +1,4 @@
-package co.com.sofka.challengeDDD.Generics;
+package co.com.sofka.challengeDDD.Transport.Value;
 
 import co.com.sofka.domain.generic.ValueObject;
 

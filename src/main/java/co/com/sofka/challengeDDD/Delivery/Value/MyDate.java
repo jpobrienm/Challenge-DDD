@@ -5,10 +5,10 @@ import co.com.sofka.domain.generic.ValueObject;
 import java.util.Date;
 import java.util.Objects;
 
-public class BillDate implements ValueObject<Date> {
+public class MyDate implements ValueObject<Date> {
     private final Date date;
 
-    public BillDate(Date date){
+    public MyDate(Date date){
         this.date = Objects.requireNonNull(date);
     }
 
@@ -21,7 +21,7 @@ public class BillDate implements ValueObject<Date> {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        BillDate that = (BillDate) o;
+        MyDate that = (MyDate) o;
         return date.equals(that.date);
     }
 

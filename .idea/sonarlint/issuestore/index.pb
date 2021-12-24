@@ -29,13 +29,9 @@ u
 Esrc/main/java/co/com/sofka/challengeDDD/Delivery/Value/PackageId.java,9\3\93b58aedf6111f996f099a3729c4409ae35496ea
 q
 Asrc/main/java/co/com/sofka/challengeDDD/Client/Entity/Object.java,1\9\19f67b1ea4776e38c21ac99d906b37904c596696
-r
-Bsrc/main/java/co/com/sofka/challengeDDD/Delivery/Entity/State.java,a\e\ae6e6b07b95ff77504775cda57b96290c09810d8
 u
 Esrc/main/java/co/com/sofka/challengeDDD/Transport/Value/DriverId.java,b\2\b2742e9077b9b678050b7c963a80e2c620e5857e
 v
 Fsrc/main/java/co/com/sofka/challengeDDD/Transport/Value/VehicleId.java,2\0\20afdb198cb93a0dec6d16f4b13f52bf60c4aa73
 t
 Dsrc/main/java/co/com/sofka/challengeDDD/Transport/Value/RouteId.java,b\f\bf3d7eac7e1caa9eb2d35ad4f9ecc47792826daa
-u
-Esrc/main/java/co/com/sofka/challengeDDD/Transport/Entity/Vehicle.java,2\8\285b6b01679eab111d6854310b15d52b28d390eb

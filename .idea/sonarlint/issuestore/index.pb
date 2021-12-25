@@ -25,8 +25,6 @@ r
 Bsrc/main/java/co/com/sofka/challengeDDD/Delivery/Value/Weight.java,c\c\cc24d9e9c1e5e3236ba8ea2485fee0f37342c76c
 {
 Ksrc/main/java/co/com/sofka/challengeDDD/CustomerRequest/Value/Category.java,d\e\deb3dff7ca0a9eb8e180a7541564cfe59dc71f1a
-|
-Lsrc/main/java/co/com/sofka/challengeDDD/CustomerRequest/Entity/Reciever.java,4\b\4bce7dac4996f4c6d781e33d0e28249c9339b83a
 t
 Dsrc/main/java/co/com/sofka/challengeDDD/Delivery/Entity/Package.java,a\3\a385c25be6fe43bd797d314b2ab452915783b619
 r

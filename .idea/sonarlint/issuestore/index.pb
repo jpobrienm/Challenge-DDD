@@ -7,8 +7,6 @@ p
 @src/main/java/co/com/sofka/challengeDDD/Transport/Transport.java,c\8\c8edbb4f8080e9c9bd9f3e0e6d927c49eb224ef7
 y
 Isrc/main/java/co/com/sofka/challengeDDD/Delivery/Value/DeliveryState.java,c\a\ca49686b6c08a2caacc21957172c57130da9f33c
-r
-Bsrc/main/java/co/com/sofka/challengeDDD/Transport/Value/Plate.java,5\9\5995d8b0f82a34d3088ef3d8eb298492519a171f
 x
 Hsrc/main/java/co/com/sofka/challengeDDD/Transport/Value/VehicleType.java,2\4\2493db9cbde08652e2e692e11710debdedfd6b92
 m
@@ -17,8 +15,6 @@ l
 <src/main/java/co/com/sofka/challengeDDD/Generics/Amount.java,e\f\efea4daa23441dd8aa83884f6dafb2f0f7c8bb3b
 t
 Dsrc/main/java/co/com/sofka/challengeDDD/Generics/Identification.java,b\3\b322ce0f1238c298c6a60ff8dea2c816f3b6c0dc
-j
-:src/main/java/co/com/sofka/challengeDDD/Generics/Name.java,b\2\b29536a5d7f6e4b801e9ad5a6d878d818abddfa0
 v
 Fsrc/main/java/co/com/sofka/challengeDDD/Delivery/Value/Dimensions.java,1\9\194cdf642112e18d07bed4bec72732d6d53af15c
 r
@@ -43,8 +39,6 @@ u
 Esrc/main/java/co/com/sofka/challengeDDD/Transport/Entity/Vehicle.java,2\8\285b6b01679eab111d6854310b15d52b28d390eb
 ‚
 Rsrc/main/java/co/com/sofka/challengeDDD/CustomerRequest/IDS/CustomerRequestId.java,b\d\bda6eb0cc09ef8152d1f1f6ffc488525172779b2
-
-Qsrc/main/java/co/com/sofka/challengeDDD/CustomerRequest/IDS/DeliveryObjectId.java,c\5\c578ef8e63d23815b537bcf6518ff4835536fd08
 {
 Ksrc/main/java/co/com/sofka/challengeDDD/CustomerRequest/IDS/RecieverId.java,5\9\591a03097b6bd3f5a3ec924956082a38e07f8030
 y

@@ -1,6 +1,6 @@
 package co.com.sofka.challengeDDD.CustomerRequest.Entity;
 
-import co.com.sofka.challengeDDD.CustomerRequest.Value.SenderId;
+import co.com.sofka.challengeDDD.CustomerRequest.IDS.SenderId;
 import co.com.sofka.challengeDDD.Generics.Identification;
 import co.com.sofka.challengeDDD.Generics.Name;
 import co.com.sofka.domain.generic.Entity;

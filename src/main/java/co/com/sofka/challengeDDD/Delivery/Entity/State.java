@@ -1,8 +1,8 @@
 package co.com.sofka.challengeDDD.Delivery.Entity;
 
 import co.com.sofka.challengeDDD.Delivery.Value.DeliveryState;
-import co.com.sofka.challengeDDD.Delivery.Value.MyDate;
-import co.com.sofka.challengeDDD.Delivery.Value.StateId;
+import co.com.sofka.challengeDDD.Generics.MyDate;
+import co.com.sofka.challengeDDD.Delivery.IDS.StateId;
 import co.com.sofka.domain.generic.Entity;
 
 import java.util.Objects;

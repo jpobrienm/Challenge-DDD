@@ -1,7 +1,7 @@
 package co.com.sofka.challengeDDD.Delivery.Entity;
 
 import co.com.sofka.challengeDDD.Delivery.Value.Dimensions;
-import co.com.sofka.challengeDDD.Delivery.Value.PackageId;
+import co.com.sofka.challengeDDD.Delivery.IDS.PackageId;
 import co.com.sofka.challengeDDD.Delivery.Value.Weight;
 import co.com.sofka.domain.generic.Entity;
 

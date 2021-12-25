@@ -1,0 +1,8 @@
+
+L
+java:S1068"*Remove this unused "amount" private field.(»ô‘›üÿÿÿÿ8±ğÛŞ/
+o
+java:S1104"TMake billDate a static final constant or non-public and provide accessors if needed.(Ú™ø°øÿÿÿÿ
+P
+java:S1191"5Use classes from the Java API instead of Sun classes.(ñ»ò—şÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»à²”ıÿÿÿÿ

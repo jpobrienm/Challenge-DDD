@@ -1,7 +1,7 @@
 package co.com.sofka.challengeDDD.Transport.Entity;
 
 import co.com.sofka.challengeDDD.Generics.Address;
-import co.com.sofka.challengeDDD.Transport.Value.RouteId;
+import co.com.sofka.challengeDDD.Transport.IDS.RouteId;
 import co.com.sofka.domain.generic.Entity;
 
 import java.util.Objects;

@@ -2,7 +2,7 @@ package co.com.sofka.challengeDDD.Transport.Entity;
 
 import co.com.sofka.challengeDDD.Generics.Identification;
 import co.com.sofka.challengeDDD.Generics.Name;
-import co.com.sofka.challengeDDD.Transport.Value.DriverId;
+import co.com.sofka.challengeDDD.Transport.IDS.DriverId;
 import co.com.sofka.challengeDDD.Transport.Value.Worktime;
 import co.com.sofka.domain.generic.Entity;
 

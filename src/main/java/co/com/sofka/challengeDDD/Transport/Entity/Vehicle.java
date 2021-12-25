@@ -1,7 +1,7 @@
 package co.com.sofka.challengeDDD.Transport.Entity;
 
 import co.com.sofka.challengeDDD.Transport.Value.Plate;
-import co.com.sofka.challengeDDD.Transport.Value.VehicleId;
+import co.com.sofka.challengeDDD.Transport.IDS.VehicleId;
 import co.com.sofka.challengeDDD.Transport.Value.VehicleState;
 import co.com.sofka.challengeDDD.Transport.Value.VehicleType;
 import co.com.sofka.domain.generic.Entity;

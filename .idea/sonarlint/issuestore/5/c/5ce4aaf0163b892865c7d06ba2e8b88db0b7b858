@@ -1,8 +1,0 @@
-
->
-java:S1068"(Remove this unused "name" private field.(ý„œÏ
-M
-java:S1068"2Remove this unused "identification" private field.(Áû¦ïøÿÿÿÿ
-G
-java:S1068",Remove this unused "worktime" private field.(ÀÑ˜˜ýÿÿÿÿ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì³õŠýÿÿÿÿ

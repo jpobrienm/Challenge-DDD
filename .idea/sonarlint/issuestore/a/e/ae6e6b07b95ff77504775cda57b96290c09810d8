@@ -1,10 +1,0 @@
-
-L
-java:S1068"1Remove this unused "deliveryState" private field.(±ç‰óÿÿÿÿÿ
-@
-java:S1068"*Remove this unused "myDate" private field.(à
-M
-java:S1144"8Remove this unused private "updateDeliveryState" method.(Ä¶ïr
-L
-java:S1144"1Remove this unused private "updateMyDate" method.(çˆšÕüÿÿÿÿ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»à²”ıÿÿÿÿ

@@ -1,6 +1,4 @@
 
-m
-=src/main/java/co/com/sofka/challengeDDD/Generics/Address.java,6\1\61b06af47c1a05c431e659d54014dc20be70c11b
 l
 <src/main/java/co/com/sofka/challengeDDD/Generics/Amount.java,e\f\efea4daa23441dd8aa83884f6dafb2f0f7c8bb3b
 t
@@ -19,12 +17,6 @@ y
 Isrc/main/java/co/com/sofka/challengeDDD/Domain/Transport/Value/Plate.java,1\5\153a7ca556cd36650cd6360d8382a58d900a9f0a
 j
 :src/main/java/co/com/sofka/challengeDDD/Generics/Name.java,b\2\b29536a5d7f6e4b801e9ad5a6d878d818abddfa0
-‡
-Wsrc/main/java/co/com/sofka/challengeDDD/Domain/CustomerRequest/Event/RecieverAdded.java,7\8\78aec72f9b658a4c0355572edc65cd9caa317a0a
-‡
-Wsrc/main/java/co/com/sofka/challengeDDD/Domain/CustomerRequest/Command/AddReciever.java,f\4\f41289ffa80e1208b3f5c85412684bb0484a4e78
-…
-Usrc/main/java/co/com/sofka/challengeDDD/Domain/CustomerRequest/Command/AddSender.java,9\a\9a3528b6a1535e7db862038bbdc2a29e59d34992
 …
 Usrc/main/java/co/com/sofka/challengeDDD/Domain/CustomerRequest/Event/SenderAdded.java,a\0\a07ac2c077abebfba812cc1669e0c1a9327b56aa
 
@@ -37,16 +29,10 @@ Ysrc/main/java/co/com/sofka/challengeDDD/Domain/CustomerRequest/IDS/CustomerRequ
 Psrc/main/java/co/com/sofka/challengeDDD/Domain/Delivery/Value/DeliveryState.java,2\f\2f658896f9b7179bbe8976be454e3490b3d5507e
 }
 Msrc/main/java/co/com/sofka/challengeDDD/Domain/Delivery/Value/Dimensions.java,0\5\05fbb988fb8ed6735e2448530478be6bdb259eb1
-‘
-asrc/main/java/co/com/sofka/challengeDDD/Domain/CustomerRequest/Command/CreateCustomerRequest.java,5\8\585d8e9344b509aef9ef3d60fde1a6ec426609e3
 ƒ
 Ssrc/main/java/co/com/sofka/challengeDDD/Domain/Delivery/Command/CreateDelivery.java,6\1\61ea37b57616b68c0ab1f934d9b03c6b6bbb6a2b
-
-`src/main/java/co/com/sofka/challengeDDD/Domain/CustomerRequest/Event/CustomerRequestCreated.java,b\a\baade3bad9331e6774ff2bfeb08833c1bf591e3a
 
 ]src/main/java/co/com/sofka/challengeDDD/Domain/CustomerRequest/Event/DeliveryObjectAdded.java,2\5\25d23382a463cbf91788ef5a2b2b088ae8553ce2
-‰
-Ysrc/main/java/co/com/sofka/challengeDDD/Domain/CustomerRequest/CustomerRequestChange.java,4\1\41a3636d7d18a2dd56e05ad12ea854c94ecd23c4
 |
 Lsrc/main/java/co/com/sofka/challengeDDD/Domain/Delivery/Command/AddBill.java,d\a\dac54a6d298c923b9ea71876519952b82fe57e36
 }
@@ -59,8 +45,6 @@ Ksrc/main/java/co/com/sofka/challengeDDD/Domain/Delivery/Entity/Package.java,1\
 Osrc/main/java/co/com/sofka/challengeDDD/Domain/Delivery/Event/PackageAdded.java,2\5\2554e8b49eaf28318d70e638dbc278cd9495fcf3
 
 Osrc/main/java/co/com/sofka/challengeDDD/Domain/Delivery/Command/AddPackage.java,b\2\b265da24dbf7b1524eed0adcdbe73421948a9af5
-„
-Tsrc/main/java/co/com/sofka/challengeDDD/Domain/Transport/Event/TransportCreated.java,9\b\9b7bb2378eb0765d1767f159b154488864a52f43
 ‚
 Rsrc/main/java/co/com/sofka/challengeDDD/Domain/Delivery/Event/DeliveryCreated.java,6\7\6796d39dcdb1b785716ffcef5a5f8bcf38cba154
 |
@@ -77,3 +61,7 @@ Nsrc/main/java/co/com/sofka/challengeDDD/Domain/Transport/Event/RouteAdded.java
 Nsrc/main/java/co/com/sofka/challengeDDD/Domain/Transport/Command/AddRoute.java,9\6\965a6496a2a8ccb0086f875ceea9ebc31036bedb
 
 Osrc/main/java/co/com/sofka/challengeDDD/Domain/Transport/Event/DriverAdded.java,e\5\e587f5d900eb05029c629bf0c8f902a6722e55a9
+{
+Ksrc/main/java/co/com/sofka/challengeDDD/Domain/Delivery/DeliveryChange.java,8\d\8dac91bf63c45164228c6aedc3a898465d36fe08
+u
+Esrc/main/java/co/com/sofka/challengeDDD/Domain/Delivery/Delivery.java,b\d\bd931ed143b7447591a4a0d23ebff962c880bdeb

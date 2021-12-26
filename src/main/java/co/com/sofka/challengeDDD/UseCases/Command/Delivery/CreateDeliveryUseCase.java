@@ -13,7 +13,7 @@ public class CreateDeliveryUseCase extends UseCase<RequestCommand<CreateDelivery
     @Override
     public void executeUseCase(RequestCommand<CreateDelivery> requestCommand){
         var command = requestCommand.getCommand();
-        var delivery = Delivery.from(command.getDeliveryId(), retrieveEvents(command.getDeliveryId().value()));
+        var delivery = new Delivery(command.getDeliveryId(), command.getCustomerRequestId());
         emit().onResponse(new ResponseEvents(delivery.getUncommittedChanges()));
     }
 }

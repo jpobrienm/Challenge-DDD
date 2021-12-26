@@ -11,7 +11,7 @@ public class CreateTransportUseCase extends UseCase<RequestCommand<CreateTranspo
     @Override
     public void executeUseCase(RequestCommand<CreateTransport> requestCommand){
         var command = requestCommand.getCommand();
-        var transport = Transport.from(command.getTransportId(), retrieveEvents(command.getTransportId().value()));
+        var transport = new Transport (command.getTransportId(), command.getMyDate());
         emit().onResponse(new ResponseEvents(transport.getUncommittedChanges()));
     }
 }

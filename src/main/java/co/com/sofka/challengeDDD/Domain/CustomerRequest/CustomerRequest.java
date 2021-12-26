@@ -43,16 +43,17 @@ public class CustomerRequest extends AggregateEvent<CustomerRequestId> {
         return customerRequest;
     }
 
-    public void addReciever(Name name, Identification identification, Address address){
-        var recieverId = new RecieverId();
+    public void addReciever(RecieverId recieverId, Name name, Identification identification, Address address){
+        //var recieverId = new RecieverId();
+        Objects.requireNonNull(recieverId);
         Objects.requireNonNull(name);
         Objects.requireNonNull(identification);
         Objects.requireNonNull(address);
         appendChange(new RecieverAdded(recieverId, name, identification, address)).apply();
     }
 
-    public void addSender(Name name, Identification identification){
-        var senderId = new SenderId();
+    public void addSender(SenderId senderId, Name name, Identification identification){
+        Objects.requireNonNull(senderId);
         Objects.requireNonNull(name);
         Objects.requireNonNull(identification);
         appendChange(new SenderAdded(senderId, name, identification)).apply();

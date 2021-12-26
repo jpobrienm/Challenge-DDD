@@ -11,7 +11,7 @@ public class CreateCustomerRequestUseCase extends UseCase<RequestCommand<CreateC
     @Override
     public void executeUseCase(RequestCommand<CreateCustomerRequest> requestCommand){
         var command = requestCommand.getCommand();
-        var customerRequest = CustomerRequest.from(command.getCustomerRequestId(), retrieveEvents(command.getCustomerRequestId().value()));
+        var customerRequest = new CustomerRequest(command.getCustomerRequestId(), command.getMyDate());
         emit().onResponse(new ResponseEvents(customerRequest.getUncommittedChanges()));
     }
 }

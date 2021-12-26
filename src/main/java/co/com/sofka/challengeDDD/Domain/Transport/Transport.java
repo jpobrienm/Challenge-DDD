@@ -19,6 +19,7 @@ import co.com.sofka.challengeDDD.Domain.Transport.Value.VehicleType;
 import co.com.sofka.challengeDDD.Domain.Transport.Value.Worktime;
 import co.com.sofka.challengeDDD.Generics.Address;
 import co.com.sofka.challengeDDD.Generics.Identification;
+import co.com.sofka.challengeDDD.Generics.MyDate;
 import co.com.sofka.challengeDDD.Generics.Name;
 import co.com.sofka.domain.generic.AggregateEvent;
 import co.com.sofka.domain.generic.DomainEvent;
@@ -34,11 +35,12 @@ public class Transport extends AggregateEvent<TransportId> {
     protected Driver driver;
     protected Vehicle vehicle;
     protected Route route;
+    protected MyDate myDate;
 
-    public Transport(TransportId transportId, Set<DeliveryId> deliveryIdSet){
+    public Transport(TransportId transportId, MyDate myDate){
         super(transportId);
-        this.deliveryIdSet = deliveryIdSet;
-        appendChange(new TransportCreated(transportId, deliveryIdSet)).apply();
+        this.myDate = myDate;
+        appendChange(new TransportCreated(transportId, myDate)).apply();
     }
 
     private Transport(TransportId transportId){

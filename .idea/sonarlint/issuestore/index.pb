@@ -19,10 +19,6 @@ j
 :src/main/java/co/com/sofka/challengeDDD/Generics/Name.java,b\2\b29536a5d7f6e4b801e9ad5a6d878d818abddfa0
 Ö
 Usrc/main/java/co/com/sofka/challengeDDD/Domain/CustomerRequest/Event/SenderAdded.java,a\0\a07ac2c077abebfba812cc1669e0c1a9327b56aa
-ç
-]src/main/java/co/com/sofka/challengeDDD/Domain/CustomerRequest/Command/AddDeliveryObject.java,9\e\9e6fa9bec3112dd333cf5116c83cadb0d05a23c5
-Ç
-Rsrc/main/java/co/com/sofka/challengeDDD/Domain/CustomerRequest/Value/Category.java,0\a\0acd1f8eda69c4e5110cda651893191910e2ccac
 â
 Ysrc/main/java/co/com/sofka/challengeDDD/Domain/CustomerRequest/IDS/CustomerRequestId.java,b\e\bea5794e0f8e2fb2134c086d5412919553ac3945
 Ä

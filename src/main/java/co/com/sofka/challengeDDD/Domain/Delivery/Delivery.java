@@ -2,6 +2,7 @@ package co.com.sofka.challengeDDD.Domain.Delivery;
 
 import co.com.sofka.challengeDDD.Domain.CustomerRequest.IDS.CustomerRequestId;
 import co.com.sofka.challengeDDD.Domain.Delivery.Entity.Bill;
+import co.com.sofka.challengeDDD.Domain.Delivery.Entity.Package;
 import co.com.sofka.challengeDDD.Domain.Delivery.Entity.State;
 import co.com.sofka.challengeDDD.Domain.Delivery.Event.BillAdded;
 import co.com.sofka.challengeDDD.Domain.Delivery.Event.DeliveryCreated;

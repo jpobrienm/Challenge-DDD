@@ -1,9 +1,11 @@
 package co.com.sofka.challengeDDD.Domain.Delivery;
 
 import co.com.sofka.challengeDDD.Domain.Delivery.Entity.Bill;
+import co.com.sofka.challengeDDD.Domain.Delivery.Entity.Package;
 import co.com.sofka.challengeDDD.Domain.Delivery.Entity.State;
 import co.com.sofka.challengeDDD.Domain.Delivery.Event.BillAdded;
 import co.com.sofka.challengeDDD.Domain.Delivery.Event.DeliveryCreated;
+import co.com.sofka.challengeDDD.Domain.Delivery.Event.PackageAdded;
 import co.com.sofka.challengeDDD.Domain.Delivery.Event.StateAdded;
 import co.com.sofka.domain.generic.EventChange;
 
@@ -27,6 +29,10 @@ public class DeliveryChange extends EventChange {
                     event.getMyDate());
         });
 
-        apply();
+        apply((PackageAdded event) ->{
+            delivery.aPackage = new Package(event.getPackageId(),
+                    event.getDimensions(),
+                    event.getWeight());
+        });
     }
 }

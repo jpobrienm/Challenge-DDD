@@ -59,10 +59,10 @@ public class CustomerRequest extends AggregateEvent<CustomerRequestId> {
     }
 
     public void addDeliveryObject(Category category, Amount amount){
-        var delivaryObjectId = new DeliveryObjectId();
+        var deliveryObjectId = new DeliveryObjectId();
         Objects.requireNonNull(category);
         Objects.requireNonNull(amount);
-        appendChange(new DeliveryObjectAdded(delivaryObjectId, category, amount)).apply();
+        appendChange(new DeliveryObjectAdded(deliveryObjectId, category, amount)).apply();
     }
 
 }

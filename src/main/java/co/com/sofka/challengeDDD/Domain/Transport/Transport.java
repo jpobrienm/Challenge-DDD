@@ -77,4 +77,28 @@ public class Transport extends AggregateEvent<TransportId> {
         Objects.requireNonNull(targetAddfress);
         appendChange(new RouteAdded(routeId, originAddress, targetAddfress)).apply();
     }
+
+    public TransportId transportId() {
+        return transportId;
+    }
+
+    public Set<DeliveryId> deliveryIdSet() {
+        return deliveryIdSet;
+    }
+
+    public Driver driver() {
+        return driver;
+    }
+
+    public Vehicle vehicle() {
+        return vehicle;
+    }
+
+    public Route route() {
+        return route;
+    }
+
+    public MyDate myDate() {
+        return myDate;
+    }
 }

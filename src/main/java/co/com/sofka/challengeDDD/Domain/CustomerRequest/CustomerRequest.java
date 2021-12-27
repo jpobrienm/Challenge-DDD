@@ -65,4 +65,19 @@ public class CustomerRequest extends AggregateEvent<CustomerRequestId> {
         appendChange(new DeliveryObjectAdded(deliveryObjectId, category, amount)).apply();
     }
 
+    public Reciever reciever() {
+        return reciever;
+    }
+
+    public Sender sender() {
+        return sender;
+    }
+
+    public DeliveryObject deliveryObject() {
+        return deliveryObject;
+    }
+
+    public MyDate myDate() {
+        return myDate;
+    }
 }

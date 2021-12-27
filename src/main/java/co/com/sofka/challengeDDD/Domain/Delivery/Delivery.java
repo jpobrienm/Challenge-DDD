@@ -67,4 +67,20 @@ public class Delivery extends AggregateEvent<DeliveryId> {
         Objects.requireNonNull(weight);
         appendChange(new PackageAdded(packageId, dimensions, weight)).apply();
     }
+
+    public CustomerRequestId customerRequestId() {
+        return customerRequestId;
+    }
+
+    public Bill bill() {
+        return bill;
+    }
+
+    public State state() {
+        return state;
+    }
+
+    public Package aPackage() {
+        return aPackage;
+    }
 }

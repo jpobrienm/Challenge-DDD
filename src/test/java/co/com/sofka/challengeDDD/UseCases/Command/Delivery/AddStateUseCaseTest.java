@@ -58,7 +58,7 @@ class AddStateUseCaseTest {
         Assertions.assertEquals(stateId.value(), event.getStateId().value());
         Assertions.assertEquals(deliveryState.value(), event.getDeliveryState().value());
         Assertions.assertEquals(myDate.value(), event.getMyDate().value());
-
+        Mockito.verify(repository).getEventsBy(stateId.value());
     }
 
     private List<DomainEvent> EventStored() {

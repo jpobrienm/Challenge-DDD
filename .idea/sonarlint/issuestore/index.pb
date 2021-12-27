@@ -35,15 +35,11 @@ Msrc/main/java/co/com/sofka/challengeDDD/Domain/Delivery/Event/StateAdded.java,
 Ksrc/main/java/co/com/sofka/challengeDDD/Domain/Delivery/Entity/Package.java,1\b\1b13b4bce134f34a4e808a0f4664a5e500961a3c
 
 Osrc/main/java/co/com/sofka/challengeDDD/Domain/Delivery/Event/PackageAdded.java,2\5\2554e8b49eaf28318d70e638dbc278cd9495fcf3
-
-Osrc/main/java/co/com/sofka/challengeDDD/Domain/Transport/Command/AddDriver.java,d\f\df5e353a3c0a70514ae81b5fffcadddb2925d9eb
 €
 Psrc/main/java/co/com/sofka/challengeDDD/Domain/Transport/Command/AddVehicle.java,a\0\a0601ab221102a101a2f7c7284b4c685b6855980
 €
 Psrc/main/java/co/com/sofka/challengeDDD/Domain/Transport/Event/VehicleAdded.java,1\f\1f6c48d783595e09a2c065958a9827261c0352bd
 ~
 Nsrc/main/java/co/com/sofka/challengeDDD/Domain/Transport/Event/RouteAdded.java,4\4\447cb0eb3004ca1f4f83727b4eda1f10292731c8
-~
-Nsrc/main/java/co/com/sofka/challengeDDD/Domain/Transport/Command/AddRoute.java,9\6\965a6496a2a8ccb0086f875ceea9ebc31036bedb
 
 Osrc/main/java/co/com/sofka/challengeDDD/Domain/Transport/Event/DriverAdded.java,e\5\e587f5d900eb05029c629bf0c8f902a6722e55a9

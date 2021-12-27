@@ -24,6 +24,7 @@ import co.com.sofka.challengeDDD.Generics.Name;
 import co.com.sofka.domain.generic.AggregateEvent;
 import co.com.sofka.domain.generic.DomainEvent;
 
+import java.io.ObjectStreamException;
 import java.util.List;
 import java.util.Objects;
 import java.util.Set;
@@ -54,24 +55,24 @@ public class Transport extends AggregateEvent<TransportId> {
         return transport;
     }
 
-    public void addDriver(Name name, Identification identification, Worktime worktime){
-        var driverId = new DriverId();
+    public void addDriver(DriverId driverId, Name name, Identification identification, Worktime worktime){
+        Objects.requireNonNull(driverId);
         Objects.requireNonNull(name);
         Objects.requireNonNull(identification);
         Objects.requireNonNull(worktime);
         appendChange(new DriverAdded(driverId, name, identification, worktime)).apply();
     }
 
-    public void addVehicle(VehicleType vehicleType, Plate plate, VehicleState vehicleState){
-        var vehicleId = new VehicleId();
+    public void addVehicle(VehicleId vehicleId, VehicleType vehicleType, Plate plate, VehicleState vehicleState){
+        Objects.requireNonNull(vehicleId);
         Objects.requireNonNull(vehicleType);
         Objects.requireNonNull(plate);
         Objects.requireNonNull(vehicleState);
         appendChange(new VehicleAdded(vehicleId, vehicleType, plate, vehicleState)).apply();
     }
 
-    public void addRoute(Address originAddress, Address targetAddfress){
-        var routeId = new RouteId();
+    public void addRoute(RouteId routeId, Address originAddress, Address targetAddfress){
+        Objects.requireNonNull(routeId);
         Objects.requireNonNull(originAddress);
         Objects.requireNonNull(targetAddfress);
         appendChange(new RouteAdded(routeId, originAddress, targetAddfress)).apply();

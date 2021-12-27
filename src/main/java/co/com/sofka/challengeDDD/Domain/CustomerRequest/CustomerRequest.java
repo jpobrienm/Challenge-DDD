@@ -44,7 +44,6 @@ public class CustomerRequest extends AggregateEvent<CustomerRequestId> {
     }
 
     public void addReciever(RecieverId recieverId, Name name, Identification identification, Address address){
-        //var recieverId = new RecieverId();
         Objects.requireNonNull(recieverId);
         Objects.requireNonNull(name);
         Objects.requireNonNull(identification);

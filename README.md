@@ -5,3 +5,5 @@ esta empresa no posee conductores o vehiculos per se, sino que realiza una contr
 en funcion de las horas trabajadas y los vehiculos se alquilan durante el tiempo de las entregas.
 
 ![](https://github.com/jpobrienm/Challenge-DDD/blob/main/Challenge-DDD-Modelo%20Detallado.jpg)
+![](https://github.com/jpobrienm/Challenge-DDD/blob/main/Challenge-DDD-Modelo%20de%20Dominio.jpg)
+![](https://github.com/jpobrienm/Challenge-DDD/blob/main/Challenge-DDD-Modelo-Macro.jpg)

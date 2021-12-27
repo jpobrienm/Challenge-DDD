@@ -47,22 +47,22 @@ public class Delivery extends AggregateEvent<DeliveryId> {
         return delivery;
     }
 
-    public void addBill(Amount amount, MyDate myDate){
-        var billId = new BillId();
+    public void addBill(BillId billId, Amount amount, MyDate myDate){
+        Objects.requireNonNull(billId);
         Objects.requireNonNull(amount);
         Objects.requireNonNull(myDate);
         appendChange(new BillAdded(billId, amount, myDate)).apply();
     }
 
-    public void addState(DeliveryState deliveryState, MyDate myDate){
-        var stateId = new StateId();
+    public void addState(StateId stateId, DeliveryState deliveryState, MyDate myDate){
+        Objects.requireNonNull(stateId);
         Objects.requireNonNull(deliveryState);
-        Objects.requireNonNull(aPackage);
+        Objects.requireNonNull(myDate);
         appendChange(new StateAdded(stateId, deliveryState, myDate)).apply();
     }
 
-    public void addPackage(Dimensions dimensions, Weight weight){
-        var packageId = new PackageId();
+    public void addPackage(PackageId packageId, Dimensions dimensions, Weight weight){
+        Objects.requireNonNull(packageId);
         Objects.requireNonNull(dimensions);
         Objects.requireNonNull(weight);
         appendChange(new PackageAdded(packageId, dimensions, weight)).apply();

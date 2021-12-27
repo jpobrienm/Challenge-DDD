@@ -58,6 +58,7 @@ class AddRecieverUseCaseTest {
 
         RecieverAdded event = (RecieverAdded) events.get(0);
 
+        // assert
         Assertions.assertEquals(recieverId.value(), event.getRecieverId().value());
         Assertions.assertEquals("qwertyuiop", event.getName().value());
         Assertions.assertEquals(12345678, event.getIdentification().value());

@@ -3,11 +3,8 @@ package co.com.sofka.challengeDDD.Domain.CustomerRequest;
 import co.com.sofka.challengeDDD.Domain.CustomerRequest.Entity.DeliveryObject;
 import co.com.sofka.challengeDDD.Domain.CustomerRequest.Entity.Reciever;
 import co.com.sofka.challengeDDD.Domain.CustomerRequest.Entity.Sender;
-import co.com.sofka.challengeDDD.Domain.CustomerRequest.Event.DeliveryObjectAdded;
-import co.com.sofka.challengeDDD.Domain.CustomerRequest.Event.RecieverAdded;
-import co.com.sofka.challengeDDD.Domain.CustomerRequest.Event.SenderAdded;
+import co.com.sofka.challengeDDD.Domain.CustomerRequest.Event.*;
 import co.com.sofka.challengeDDD.Domain.CustomerRequest.IDS.CustomerRequestId;
-import co.com.sofka.challengeDDD.Domain.CustomerRequest.Event.CustomerRequestCreated;
 import co.com.sofka.challengeDDD.Domain.CustomerRequest.IDS.DeliveryObjectId;
 import co.com.sofka.challengeDDD.Domain.CustomerRequest.IDS.RecieverId;
 import co.com.sofka.challengeDDD.Domain.CustomerRequest.IDS.SenderId;
@@ -63,6 +60,12 @@ public class CustomerRequest extends AggregateEvent<CustomerRequestId> {
         Objects.requireNonNull(category);
         Objects.requireNonNull(amount);
         appendChange(new DeliveryObjectAdded(deliveryObjectId, category, amount)).apply();
+    }
+
+    public void updateSenderName(Name name){
+        Objects.requireNonNull(sender);
+        Objects.requireNonNull(name);
+        appendChange(new SenderNameUpdated(sender, name)).apply();
     }
 
     public Reciever reciever() {

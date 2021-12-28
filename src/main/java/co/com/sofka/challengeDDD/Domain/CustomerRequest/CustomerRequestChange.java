@@ -3,10 +3,8 @@ package co.com.sofka.challengeDDD.Domain.CustomerRequest;
 import co.com.sofka.challengeDDD.Domain.CustomerRequest.Entity.DeliveryObject;
 import co.com.sofka.challengeDDD.Domain.CustomerRequest.Entity.Reciever;
 import co.com.sofka.challengeDDD.Domain.CustomerRequest.Entity.Sender;
-import co.com.sofka.challengeDDD.Domain.CustomerRequest.Event.CustomerRequestCreated;
-import co.com.sofka.challengeDDD.Domain.CustomerRequest.Event.DeliveryObjectAdded;
-import co.com.sofka.challengeDDD.Domain.CustomerRequest.Event.RecieverAdded;
-import co.com.sofka.challengeDDD.Domain.CustomerRequest.Event.SenderAdded;
+import co.com.sofka.challengeDDD.Domain.CustomerRequest.Event.*;
+import co.com.sofka.challengeDDD.Generics.Name;
 import co.com.sofka.domain.generic.EventChange;
 
 public class CustomerRequestChange extends EventChange {
@@ -33,6 +31,10 @@ public class CustomerRequestChange extends EventChange {
             customerRequest.deliveryObject = new DeliveryObject(event.getDeliveryObjectId(),
                     event.getCategory(),
                     event.getAmount());
+        });
+
+        apply((SenderNameUpdated event) ->{
+            customerRequest.sender = event.getSender();
         });
     }
 }
